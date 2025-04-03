@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_example/Flutter%20UI/Book%20%20App%20UI/Views/book_home_screen.dart';
+import 'package:flutter_example/Flutter UI/Pet App UI/pages/pets_home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,14 +13,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BooksHome(),
+      home: PetsHomeScreen(),
     );
   }
 }
-
-
-
-
 
 // theme: ThemeData(
 //   appBarTheme: const AppBarTheme(
