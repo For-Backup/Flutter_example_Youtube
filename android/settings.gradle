@@ -10,9 +10,18 @@ pluginManagement {
     includeBuild("$flutterSdkPath/packages/flutter_tools/gradle")
 
     repositories {
-        google()
-        mavenCentral()
-        gradlePluginPortal()
+        // 优先使用国内镜像  
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }  
+        maven { url 'https://mirrors.huaweicloud.com/repository/maven/' }  
+        maven { url 'https://mirrors.cloud.tencent.com/gradle/' }  
+      
+        // 保留原始仓库（镜像失效时备用）  
+        gradlePluginPortal()  
+        google()  
+        mavenCentral()  
+      
+        // 添加Flutter插件仓库镜像  
+        maven { url 'https://storage.flutter-io.cn/download.flutter.io' }  
     }
 }
 
