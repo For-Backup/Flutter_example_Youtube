@@ -95,7 +95,7 @@ class _HouseRentHomeScreenState extends State<HouseRentHomeScreen> {
 
   Padding popularPlace() {
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 20),
+      padding: const EdgeInsets.symmetric(horizontal: 20),
       child: Container(
         decoration: BoxDecoration(
           color: Colors.white70,

@@ -29,7 +29,7 @@ class _PasswordFormValidatorState extends State<PasswordFormValidator> {
         ),
       ),
       body: Padding(
-        padding: EdgeInsets.all(15),
+        padding: const EdgeInsets.all(15),
         child: SingleChildScrollView(
           child: Column(
             children: [
@@ -52,7 +52,7 @@ class _PasswordFormValidatorState extends State<PasswordFormValidator> {
                       controller: controller,
                       decoration: InputDecoration(
                         enabledBorder: OutlineInputBorder(
-                          borderSide: BorderSide(
+                          borderSide: const BorderSide(
                             color: Colors.black45,
                             width: 2,
                           ),
@@ -80,7 +80,7 @@ class _PasswordFormValidatorState extends State<PasswordFormValidator> {
                         ),
                       ),
                     ),
-                    SizedBox(height: 15),
+                    const SizedBox(height: 15),
                     // the main parts
                     // validation parts
                     FlutterPwValidator(

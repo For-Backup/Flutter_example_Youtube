@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_example/Flutter%20UI/Real%20Estate%20App%20UI/Views/home_screen_real_estate.dart';
 
 class RegisterScreen extends StatelessWidget {

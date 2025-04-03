@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_example/Flutter%20UI/Pet%20App%20UI/Utils/const.dart';
 import 'package:flutter_example/Flutter%20UI/Pet%20App%20UI/models/cats_model.dart';
 import 'package:flutter_example/Flutter%20UI/Pet%20App%20UI/pages/pets_detail_page.dart';

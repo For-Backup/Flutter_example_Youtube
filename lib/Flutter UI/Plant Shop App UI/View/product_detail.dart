@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_example/Flutter%20UI/Plant%20Shop%20App%20UI/Model/plant_model.dart';
 

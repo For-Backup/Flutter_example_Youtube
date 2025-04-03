@@ -38,7 +38,7 @@ class BottomSheetDummyUI extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Container(
-          padding: EdgeInsets.only(left: 30, right: 30),
+          padding: const EdgeInsets.only(left: 30, right: 30),
           child: Column(
             children: [
               Row(
@@ -51,7 +51,7 @@ class BottomSheetDummyUI extends StatelessWidget {
                       width: 100,
                     ),
                   ),
-                  SizedBox(width: 10),
+                  const SizedBox(width: 10),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -63,7 +63,7 @@ class BottomSheetDummyUI extends StatelessWidget {
                           width: 240,
                         ),
                       ),
-                      SizedBox(height: 5),
+                      const SizedBox(height: 5),
                       ClipRRect(
                         borderRadius: BorderRadius.circular(15.0),
                         child: Container(
@@ -72,12 +72,12 @@ class BottomSheetDummyUI extends StatelessWidget {
                           width: 180,
                         ),
                       ),
-                      SizedBox(height: 50),
+                      const SizedBox(height: 50),
                     ],
                   )
                 ],
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
             ],
           )),
     );

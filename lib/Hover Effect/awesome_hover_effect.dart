@@ -259,7 +259,7 @@ class _BuyButtonState extends State<BuyButton> {
             : const Duration(milliseconds: 500),
         child: AnimatedOpacity(
           opacity: 1,
-          duration: Duration(milliseconds: 1100),
+          duration: const Duration(milliseconds: 1100),
           child: SizedBox(
             width: 100,
             child: Center(
@@ -267,7 +267,7 @@ class _BuyButtonState extends State<BuyButton> {
                 style: TextButton.styleFrom(
                     foregroundColor: Colors.black87,
                     backgroundColor: isHover ? Colors.green : Colors.white,
-                    padding: EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(20),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     )),

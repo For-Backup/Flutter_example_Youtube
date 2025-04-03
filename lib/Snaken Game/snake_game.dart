@@ -46,7 +46,7 @@ class _SnakeGamePageState extends State<SnakeGamePage> {
       snakeHeade = snakePosition.first;
     });
     // set up a periodic time to update the snake's posttion
-    Timer.periodic(Duration(milliseconds: 300), (timer) {
+    Timer.periodic(const Duration(milliseconds: 300), (timer) {
       updateSnake();
       if (checkCollision()) {
         timer.cancel();
@@ -161,7 +161,7 @@ class _SnakeGamePageState extends State<SnakeGamePage> {
             children: [
               Text(
                 "Score:$score",
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 25,
                   fontWeight: FontWeight.bold,
                   color: Colors.green,

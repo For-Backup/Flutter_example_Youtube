@@ -115,7 +115,7 @@ class _AnimatedSearchBarState extends State<AnimatedSearchBar>
                     child: Visibility(
                       visible: isExpanded, // Visibility based on isexpanded value
                       child: Padding(
-                        padding: EdgeInsets.all(8),
+                        padding: const EdgeInsets.all(8),
                         child: AnimatedBuilder(
                           animation: _animationController,
                           builder: (context, child) {
@@ -124,7 +124,7 @@ class _AnimatedSearchBarState extends State<AnimatedSearchBar>
                               child: child,
                             );
                           },
-                          child: Icon(Icons.mic, size: 20),
+                          child: const Icon(Icons.mic, size: 20),
                         ),
                       ),
                     ),

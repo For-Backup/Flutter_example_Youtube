@@ -124,7 +124,7 @@ class _BeautifulFlutterEffectState extends State<BeautifulFlutterEffect> {
                                     // now we make it
                                     // move to the top in hover
                                     AnimatedContainer(
-                                      duration: Duration(milliseconds: 350),
+                                      duration: const Duration(milliseconds: 350),
                                       margin: EdgeInsets.only(
                                         top: paletteState.hoveredColorPalette ==
                                                 palette

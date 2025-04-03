@@ -31,7 +31,7 @@ class _MyAppHomeScreenState extends State<MyAppHomeScreen> {
                   children: [
                      Row(
                       children: [
-                        Text(
+                        const Text(
                           "What are you\ncooking today?",
                           style: TextStyle(
                             fontSize: 32,
@@ -39,7 +39,7 @@ class _MyAppHomeScreenState extends State<MyAppHomeScreen> {
                             height: 1,
                           ),
                         ),
-                        Spacer(),
+                        const Spacer(),
                         MyIconButton(icon: Iconsax.notification,pressed: () {
                           
                         },)

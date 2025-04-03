@@ -10,7 +10,7 @@ class TipsTricks extends StatefulWidget {
 class _TipsTricksState extends State<TipsTricks> {
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return const Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[

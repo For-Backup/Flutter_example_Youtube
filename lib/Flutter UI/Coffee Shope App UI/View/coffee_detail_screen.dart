@@ -246,7 +246,7 @@ class _CoffeeDetailScreenState extends State<CoffeeDetailScreen> {
                                 const SizedBox(width: 10),
                                 CupertinoSwitch(
                                     value: switchValue,
-                                    activeColor: widget.coffee.color,
+                                    activeTrackColor: widget.coffee.color,
                                     onChanged: (value) {
                                       setState(() {
                                         switchValue = value;

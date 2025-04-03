@@ -13,7 +13,7 @@ class _Flutter3dState extends State<Flutter3d> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blue[100],
-      body: ModelViewer(
+      body: const ModelViewer(
         src: "image/police_drone_-_viper_zx07.glb",
         autoRotate: true,
       ),

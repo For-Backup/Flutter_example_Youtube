@@ -117,7 +117,7 @@ class _XHomePageState extends State<XHomePage> {
                                   ),
                                 )
                               : Container(),
-                          SizedBox(height: 10),
+                          const SizedBox(height: 10),
                           Row(
                             children: [
                               SvgPicture.asset(
@@ -170,11 +170,11 @@ class _XHomePageState extends State<XHomePage> {
                         children: [
                           IconButton(
                             onPressed: () {},
-                            icon: Icon(Icons.more_horiz),
+                            icon: const Icon(Icons.more_horiz),
                           ),
                           IconButton(
                             onPressed: () {},
-                            icon: Icon(Icons.file_upload_outlined),
+                            icon: const Icon(Icons.file_upload_outlined),
                           ),
                         ],
                       ),
